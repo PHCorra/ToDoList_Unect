@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>uTASK 2.0</title>
+</head>
+<body>
+    <div id="darkOn">
+        <header> <!--Aqui vai o titlo, imagens da parte de cima, barra de add task e modal-->
+        
+                <h1 class="title"><span>u</span>Task <span>2.0</span></h1>
+                <img src="/images/unect.png" alt="logo da unect" class="logo-unect">
+                <input type="image" src="images/config.png" alt="" class="modal" onclick="abrirModal('modal');">
+            <!--Aqui vai o click do modal-->
+                <nav>
+                    <p><input type="text" name="task-add" id="task-add" placeholder="Adicionar tarefa..."><label for="task-add" ></label></p>
+                    <input type="image" src="images/add_task_black.png" alt="" onclick="addTask()" id="botaoAddTask">
+                </nav>
+        
+        
+        </header>
+        <main>
+                <div class="toDo">
+                    <h2 class="h2Main">To Do</h2>
+                    <hr>
+                    <article id='articleToDo'>
+                    </article>
+                </div>
+                <div class="doing">
+                    <h2 class="h2Main">Doing</h2>
+                    <hr>
+                    <article id='articleDoing'>
+                    </article>
+                </div>
+                <div class="done">
+                    <h2 class="h2Main">Done</h2>
+                    <hr>
+                    <article id='articleDone'>
+
+                    </article>
+                </div>
+            </main>
+        <!--MODAL-->
+        <section class="modal-total" id="modal" onclick="fecharModal()">
+            <div class="modal-geral">
+                <div class="modal-header">
+                    <h2>Configuração</h2>
+                    <hr>
+                </div>
+            <div class="modal-main">
+                    <p class="modal-p">Dark Mode</p>
+                    <div class="botaoDarkModeDiv" id="divDarkm">
+                        <input type="checkbox" class="botaoDarkMode" id ="darkMode" onclick="darkModeOn()">
+                        <label for="darkMode"></label>
+                        </div>
+                    </button>
+                    <p class="modal-p">Plano de Fundo</p>
+                    <input type="url" name="" id="planoDeFundo">
+                    <div class="limparEAplicar">
+                        <button class="limpar" onclick="limparBox()">Limpar</button>
+                        <button class="aplicar" onclick="aplicarBackground()">Aplicar</button>
+                    </div>
+            </div>
+            </div>
+    
+
+        
+
+    </section>
+
+
+</div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
