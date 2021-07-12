@@ -9,4 +9,8 @@
     No projeto foi-se utilizado HTML, CSS e Javascript puro.
     
    
-   
+   ![image](https://user-images.githubusercontent.com/65839816/125216574-f5189c00-e294-11eb-8afb-f0fec8fd1de4.png)
+   ![image](https://user-images.githubusercontent.com/65839816/125216580-fb0e7d00-e294-11eb-9490-91237613029d.png)
+   ![image](https://user-images.githubusercontent.com/65839816/125216603-0cf02000-e295-11eb-85ed-333385f914a9.png)
+
+
